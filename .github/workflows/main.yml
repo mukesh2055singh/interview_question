@@ -19,8 +19,8 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: mukesh2055singh@gmail.com
-        password: Patel@606890
+        username: 'mukesh2055singh@gmail.com'
+        password: 'Patel@606890'
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v4
@@ -37,6 +37,6 @@ jobs:
       run: mvn clean package
 
     - name: Build Docker image
-      run: docker build -t mukesh2055singh/deployment_repo .
+      run: docker build -t mukesh2055singh/deployment_repo.
 
     - name: Push Docker image to Docker Hub
