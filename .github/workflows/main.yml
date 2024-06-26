@@ -37,6 +37,6 @@ jobs:
       run: mvn clean package
 
     - name: Build Docker image
-      run: docker build -t yourusername/my-spring-boot-app:latest .
+      run: docker build -t mukesh2055singh/deployment_repo .
 
     - name: Push Docker image to Docker Hub
