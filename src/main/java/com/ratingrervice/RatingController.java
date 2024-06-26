@@ -19,7 +19,7 @@ public class RatingController {
 	
 	@GetMapping
 	public String getAllRating(){
-		System.out.println("ratings mapping called 11");
+		 System.out.println("ratings mapping called 2");
 		 return "successful";
 	}
 }
