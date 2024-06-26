@@ -10,4 +10,5 @@ COPY target/*.jar /app/my-spring-boot-app.jar
 EXPOSE 9000
 
 # Set the entry point to run the Spring Boot application
+
 ENTRYPOINT ["java", "-jar", "my-spring-boot-app.jar"]
